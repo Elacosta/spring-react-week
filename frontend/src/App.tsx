@@ -1,10 +1,17 @@
-import ButtonNotification from "./components/notificationButton/buttonNotification";
+import Header from "./components/header/Header"
+import SaleCard from "./components/saleCard/saleCard";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <ButtonNotification />
+      <Header />
+      <main>
+        <section id="sale">
+          <div className="sale-container">
+            <SaleCard />
+          </div>
+        </section>
+      </main>
     </>
   );
 }

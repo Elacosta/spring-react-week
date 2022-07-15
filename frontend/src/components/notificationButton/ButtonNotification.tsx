@@ -1,5 +1,5 @@
 import icon from '../../assets/images/notification-icon.svg'
-import "./style.css"
+import "./buttonNotificationStyle.css"
 
 function ButtonNotification() {
     return (
